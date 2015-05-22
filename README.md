@@ -1,6 +1,7 @@
 # GCD_CourseProject
 
 This repository contains the script run_analysis.R which is used to clean the raw data from the Human Activity Recognition Using Smartphones Data Set from the machine learning repository at UC Irvine.  
+https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Brief information about the raw data set
 
