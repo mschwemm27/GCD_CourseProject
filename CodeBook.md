@@ -18,7 +18,7 @@ The tidy data set contains the means of the extracted means and standard deviati
 * activity: the activity the subject performed while wearing a smartphone. Factor with 6 levels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 * subject: integer from 1 to 30 uniquely identifying the subject that performed the activity.
 
-The rest of the columns are the means of the following features for each subject and each activity level (NOTE: all features are normalized and bounded within [-1,1]):
+The remaining 66 columns are the means of the following features for each subject and each activity level (NOTE: all features are normalized and bounded within [-1,1]):
 
 * tBodyAcc_mean_(XYZ): mean of the time domain body acceleration signals in the (X,Y,Z) direction
 * tGravityAcc_mean_(XYZ): mean of the time domain gravity acceleration signals in the (X,Y,Z) direction
@@ -37,7 +37,6 @@ The rest of the columns are the means of the following features for each subject
 * fBodyAccJerkMag_mean: mean of magnitude (euclidean norm) of the fBodyAccJerk signals 
 * fBodyGyroMag_mean: mean of magnitude (euclidean norm) of the fBodyGyro signals 
 * fBodyGyroJerkMag_mean: mean of magnitude (euclidean norm) of the fBodyGyroJerk signals 
-
 * tBodyAcc_std_(XYZ): standard deviation of the time domain body acceleration signals in the (X,Y,Z) direction
 * tGravityAcc_std_(XYZ): standard deviation of the time domain gravity acceleration signals in the (X,Y,Z) direction
 * tBodyAccJerk_std_(XYZ): standard deviation of the time domain body acceleration jerk signals in the (X,Y,Z) direction
